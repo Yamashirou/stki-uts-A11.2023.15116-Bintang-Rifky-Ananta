@@ -1,0 +1,7 @@
+numpy
+scipy
+pandas
+nltk
+Sastrawi
+scikit-learn
+reportlab
