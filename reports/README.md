@@ -1,4 +1,4 @@
-# 🧠 Mini Search Engine STKI — Bintang Rifky Ananta
+# Mini Search Engine STKI — Bintang Rifky Ananta
 
 Proyek ini merupakan implementasi sederhana **Sistem Temu Kembali Informasi (STKI)**  
 sebagai tugas UTS mata kuliah STKI. Sistem ini menggunakan **korpus kecil (15 dokumen)**  
@@ -6,7 +6,7 @@ yang diambil dari ulasan pengguna (Tokopedia & Google Maps) terkait toko Enter K
 
 ---
 
-## 📁 Struktur Proyek
+## Struktur Proyek
 
 ```
 stki-fixed/
@@ -38,7 +38,7 @@ stki-fixed/
 
 ---
 
-## ⚙️ Instalasi
+## Instalasi
 
 ```bash
 git clone https://github.com/<username>/stki-mini-search-engine.git
@@ -57,7 +57,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🧩 1. Preprocessing
+## 1. Preprocessing
 
 Langkah ini membersihkan teks ulasan:
 - Case folding  
@@ -70,7 +70,7 @@ Output akan tersimpan di folder `data/processed/`.
 
 ---
 
-## 🔍 2. Menjalankan Search Engine
+## 2. Menjalankan Search Engine
 
 Gunakan **`main.py`** untuk menguji tiga model retrieval:
 
@@ -91,7 +91,7 @@ python app/main.py --model bm25 --query "pelayanan bagus" --k 5
 
 ---
 
-## 📊 3. Evaluasi
+## 3. Evaluasi
 
 Metode evaluasi yang digunakan:
 - **Precision**, **Recall**, dan **F1-score**
@@ -103,7 +103,7 @@ Untuk uji sederhana, relevansi ditentukan berdasarkan:
 
 ---
 
-## 🧠 4. Notebook Analisis
+## 4. Notebook Analisis
 
 Notebook `UTS_STKI_Bintang_Rifky_Ananta.ipynb` berisi:
 - Preprocessing (before/after)
@@ -113,7 +113,7 @@ Notebook `UTS_STKI_Bintang_Rifky_Ananta.ipynb` berisi:
 
 ---
 
-## 📈 5. Contoh Output
+## 5. Contoh Output
 
 ```text
 === VECTOR SPACE MODEL (TF-IDF) ===
@@ -129,7 +129,7 @@ doc09.txt | Skor: 0.1984
 
 ---
 
-## 🧾 6. Evaluasi & Hasil
+## 6. Evaluasi & Hasil
 
 | Model | Precision@5 | Recall@5 | F1-score | Keterangan |
 |--------|--------------|----------|-----------|-------------|
@@ -139,16 +139,8 @@ doc09.txt | Skor: 0.1984
 
 ---
 
-## 🧑‍💻 Author
+## Author
 
 **Bintang Rifky Ananta**  
 NIM: A11.2023.15116  
 Program Studi Teknik Informatika — Universitas Dian Nuswantoro  
-2025
-
----
-
-## 🪶 Lisensi
-
-Proyek ini dibuat untuk keperluan akademik mata kuliah **Sistem Temu Kembali Informasi (STKI)**  
-dan dapat digunakan sebagai referensi pembelajaran Information Retrieval di Python.
